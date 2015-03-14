@@ -5,6 +5,8 @@
 #define TIMER_ESTADO_WAITING  3
 #define TIMER_ESTADO_ZOMBY    4
 
+
+
 void timerBegin(void);
 void timerRun(void);
 
