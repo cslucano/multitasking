@@ -6,6 +6,7 @@ Cambio de contexto por interrupción
 */
 
 #include "led.h"
+#include "timer.h"
 
 void setup(){
   Serial.begin(9600);
@@ -16,6 +17,7 @@ void setup(){
 void loop(){
   // tareaRun();
   ledRun();
+  timerRun();
 }
 
 void serialEvent(){
